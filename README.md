@@ -1,2 +1,2 @@
 # provider_pattern
-  Proyecto de ejemplo de patrón provider en flutter.
+  Proyecto para ejemplificar el uso del partrón Provider en flutter.
