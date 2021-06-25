@@ -9,7 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (_) => SignalMode(),
+      create: (BuildContext context) {
+        return SignalMode();
+      },
       child: MaterialApp(
           title: 'Provider', debugShowCheckedModeBanner: false, home: Home()),
     );
